@@ -45,32 +45,33 @@ echo ""
        echo -e "\033[38;0;32m" "EL RESULTADO ES $[ $n1 + $n2 ]"
 
 sleep 1.6
-bash elias.sh 
+
 elif   [ $OPC -eq 2 ];then
        echo -e "\033[38;1;33m"
        read -p "digite un numero " n1
        read -p "digite otro numero " n2
        echo -e "\033[38;0;32m" "EL RESULTADO ES $[ $n1 - $n2 ]"
 sleep 1.6
-bash elias.sh
+
 elif   [ $OPC -eq 3 ];then
        echo -e "\033[38;1;33m"
        read -p "digite un numero " n1
        read -p "digite otro numero " n2
        echo -e "\033[38;0;32m" "EL RESULTADO ES $[ $n1 * $n2 ]"
 sleep 1.6
-bash elias.sh
+
 elif   [ $OPC -eq 4 ];then
        echo -e "\033[38;1;33m" 
        read -p "digite un numero " n1
        read -p "digite otro numero " n2
        echo -e "\033[38;0;32m" "EL RESULTADO ES $[ $n1 / $n2 ]"
 sleep 1.6
-bash elias.sh
+
 elif   [ $OPC -eq 5 ];then
        echo -e "\033[38;1;33m"
        read -p "digite un numero " n1
        read -p "digite otro numero " n2
+sleep 1.9
        echo -e "\033[38;0;32m" "EL RESULTADO ES $[ $n1 | $n2 ]"
 elif   [ $OPC -eq 0 ];then
  echo -e "\033[38;1;31m" "LG-REINA MANDA "
