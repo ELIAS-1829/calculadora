@@ -30,7 +30,7 @@ echo ""
 
 
 
-if	[ $OPC -gt 7 ];then
+if	[ $OPC -gt 6 ];then
 echo -e "\033[38;1;31m"
        echo " :::: ERROR DIGITE DE NUEVO :::'"
        echo ''
