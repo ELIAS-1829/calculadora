@@ -39,7 +39,7 @@ if	[ $OPC -gt 6 ];then
 echo -e "\033[38;1;31m"
        echo " :::: ERROR DIGITE DE NUEVO :::'"
        echo ''
-       sleep 1.2
+       sleep 1.6
 
       
 elif   [ $OPC -eq 1 ];then
@@ -80,5 +80,6 @@ sleep 1.9
        echo -e "\033[38;0;32m" "EL RESULTADO ES $[ $n1 | $n2 ]"
 elif   [ $OPC -eq 0 ];then
  echo -e "\033[38;1;31m" "LG-REINA MANDA "
+exit
 fi
 done 
