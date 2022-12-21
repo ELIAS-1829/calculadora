@@ -4,6 +4,11 @@ while :
 do
 
 clear
+echo "
+LG-REINA MANDA PUTAS "|lolcat -a -d 2 
+
+
+
 echo -e "\033[38;1;33m"
 echo "
 [*]creadores elias.1829 y solitario²⁰²²
